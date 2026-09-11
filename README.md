@@ -1,16 +1,72 @@
-# React + Vite
+# One Wish Willow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> "The Original Vintage Toy Company" — Amaze your friends! Secure your future!
 
-Currently, two official plugins are available:
+Landing page fictícia de uma empresa vintage de varinhas mágicas, construída com React e Vite. O projeto apresenta uma estética retro dos anos 1950, com design imprimível e tipografia clássica.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funcionalidades
 
-## React Compiler
+- **Home** — Página inicial com banner, etapas do ritual, edição especial e newsletter
+- **Our Story** — História mística da empresa Willow & Co. desde 1954
+- **The Ritual** — Instruções detalhadas para usar a varinha de salgueiro
+- **Catalog** — Catálogo de produtos com a One Wish Willow e outras curiosidades ocultas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias
 
-## Expanding the ESLint configuration
+- [React](https://react.dev/) v19
+- [Vite](https://vite.dev/) v8
+- [styled-components](https://styled-components.com/) v6
+- [React Router](https://reactrouter.com/) v7
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estrutura do Projeto
+
+```
+src/
+├── assets/
+│   ├── components/
+│   │   ├── Header/
+│   │   └── Footer/
+│   ├── fonts/
+│   ├── img/
+│   └── styles/
+│       └── GlobalStyles.jsx
+├── pages/
+│   ├── Home/
+│   ├── Story/
+│   ├── Ritual/
+│   └── Catalog/
+├── Router/
+│   └── Router.jsx
+├── App.jsx
+└── main.jsx
+```
+
+## Início Rápido
+
+```bash
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+
+# Gere a versão de produção
+npm run build
+
+# Visualize a versão de produção
+npm run preview
+```
+
+## Scripts Disponíveis
+
+| Comando | Descrição |
+|---------|-----------|
+| `npm run dev` | Servidor de desenvolvimento com hot reload |
+| `npm run build` | Build de produção |
+| `npm run preview` | Pré-visualização da build de produção |
+| `npm run lint` | Verificação de código com ESLint |
+
+## Licença
+
+Projeto fictício para fins educacionais.
